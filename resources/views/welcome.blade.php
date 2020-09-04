@@ -91,7 +91,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   WELCOME TO VG ADMINA
+
+
+                {{-- {!! setting('site.title')!!} --}}
+
+                {{setting('site.description')}}
+
+
+
                 </div>
 
                 {{-- <div class="links">
